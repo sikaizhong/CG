@@ -1,0 +1,111 @@
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+
+\chapterimage{title2.jpg} % Chapter heading image
+
+\chapter{Widget}
+
+\section{Qt Quick}\index{Qt Quick}
+
+Qt Quick include:
+\begin{enumerate}
+	\item QML-Markup language for user interfaces
+	\item JavaScript - The dynamic scripting language
+	\item Qt C++ - The highly portable enhanced c++ library
+\end{enumerate}
+
+
+\begin{figure}[h]
+	\centering\includegraphics[scale=0.4]{hierarchy}
+	\caption{Hierarchy}
+\end{figure}
+In a typical project the front-end is developed in QML/JavaScript and the back-end code, which interfaces with the system and does the heavy lifting\footnote{hard or difficult work} is developed using Qt C++. 
+
+\section{A quick example}\index{A quick example}
+
+\begin{enumerate}
+	\item select qt quick application
+	\item import QtQuick, which is the common module that will provide basic components (Rectangle, Image, Text) 
+	\item import the QtQuick.Window module,which will provide the main window application (Window).
+	\item import QtQuick.Layouts if  RowLayout is desired;
+	 
+\end{enumerate}
+Here is an example:
+
+\begin{figure}[h]
+	\centering\includegraphics[scale=0.4]{aSimpleExample.jpg}
+	\caption{A simple Example}
+\end{figure}
+
+
+\section{QML Syntax}\index{QML Syntax}
+
+\begin{itemize}
+	\item  Child elements inherit the coordinate system from the parent,so a X,Y coordinate is always relative to the parent
+	\item Every QML file needs to have exactly one root element
+	\item Arbitrary elements inside a QML document can be accessed by using their id
+	\item Elements can be nested, means a parent element can have child elements. The parent element can be
+	accessed using the {\textbf{parent}} keyword
+\end{itemize}
+
+
+
+\section{Basic Elements}\index{Basic Elements}
+
+\subsection{Item Element}
+\subsection{Rectangle Element}
+\subsection{Image Element}
+\subsection{MouseArea Element}
+
+
+
+
+
+
+
+
+
+
+
+%------------------------------------------------
+
+\section{Citation}\index{Citation}
+
+This statement requires citation \cite{book_key}; this one is more specific \cite[122]{article_key}.
+
+
+\section{HyperLink}\index{HyperLink}
+
+This statement requires website hyperlink \href{www.google.com}{google website}; 
+this one is local hyperlink \href[page=5]{./reference/1.pdf}{Mastering Qt 5.pdf}.
+
+%------------------------------------------------
+
+\section{Lists}\index{Lists}
+
+Lists are useful to present information in a concise and/or ordered way\footnote{Footnote example...}.
+
+\subsection{Numbered List}\index{Lists!Numbered List}
+
+\begin{enumerate}
+\item The first item \cite[122]{ds}
+\item The second item
+\item The third item
+\end{enumerate}
+
+\subsection{Bullet Points}\index{Lists!Bullet Points}
+
+\begin{itemize}
+\item The first item
+\item The second item
+\item The third item
+\end{itemize}
+
+\subsection{Descriptions and Definitions}\index{Lists!Descriptions and Definitions}
+
+\begin{description}
+\item[Name] Description
+\item[Word] Definition
+\item[Comment] Elaboration
+\end{description}

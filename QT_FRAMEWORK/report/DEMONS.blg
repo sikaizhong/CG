@@ -1,0 +1,23 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[1] Config.pm:357> INFO - Logfile is 'DEMONS.blg'
+[43] biber-MSWIN64:303> INFO - === 
+[88] Biber.pm:359> INFO - Reading 'DEMONS.bcf'
+[162] Biber.pm:835> INFO - Found 4 citekeys in bib section 0
+[173] Biber.pm:3670> INFO - Processing section 0
+[228] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[239] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[246] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliography.bib'
+[248] Utils.pm:164> WARN - month field 'January' in entry 'book_key' is not an integer - this will probably not sort properly.
+[251] Utils.pm:164> WARN - month field 'March' in entry 'article_key' is not an integer - this will probably not sort properly.
+[253] Utils.pm:164> WARN - month field 'January' in entry 'book' is not an integer - this will probably not sort properly.
+[256] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliography2.bib' for section 0
+[265] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[267] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliography2.bib'
+[268] Utils.pm:164> WARN - month field 'January' in entry 'ds' is not an integer - this will probably not sort properly.
+[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[285] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[286] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[296] bbl.pm:608> INFO - Writing 'DEMONS.bbl' with encoding 'UTF-8'
+[297] bbl.pm:712> INFO - Output to DEMONS.bbl
+[300] Biber.pm:109> INFO - WARNINGS: 4
