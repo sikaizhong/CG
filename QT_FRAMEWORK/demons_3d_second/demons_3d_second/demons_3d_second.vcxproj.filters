@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="moc_DockWidget.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_DockWidgetTitleBar.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_mainwindow.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_PropertyListWidget.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_rawvolumewidget.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="DockWidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="DockWidgetTitleBar.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyListWidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="rawvolumewidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingGLWidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeURLPropertyWidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_SettingGLWidget.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleWidget.cpp">
+      <Filter>custom_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_GLWindow.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_ConsoleWidget.cpp">
+      <Filter>moc</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Trackball.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_TransferfunWidget.cpp" />
+    <ClCompile Include="TransferfunWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DockWidget.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DockWidgetTitleBar.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PropertyListWidget.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rawvolumewidget.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SettingGLWidget.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>app</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ConsoleWidget.h">
+      <Filter>custom_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GLWindow.h">
+      <Filter>opengl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransferfunWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="moc">
+      <UniqueIdentifier>{367e9eea-67f1-48a1-bf0b-5be1aa5d6e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custom_widget">
+      <UniqueIdentifier>{455df0c7-92e9-4dfd-b050-9d4909cb98de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{f673b179-85c9-487b-80f5-1964215f3bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{cd3cbe0e-1c5d-4105-98d1-468ff3ef5291}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VolumeURLPropertyWidget.h">
+      <Filter>custom_widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="raySphereIntersection.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Trackball.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>app</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
